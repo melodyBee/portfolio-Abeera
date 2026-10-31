@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>melodyBee — Abeera Fatima</title>
+        <meta
+            name="description"
+            content="Portfolio of Abeera Fatima (melodyBee): web developer, writer, and learner of Agentic AI."
+        />
+        <meta property="og:title" content="melodyBee — Abeera Fatima" />
+        <meta
+            property="og:description"
+            content="I build things for the web, write about ideas, and keep exploring."
+        />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐝%3C/text%3E%3C/svg%3E"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kavoon&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tangerine:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <script>
+            ;(function () {
+                var t = null
+                try {
+                    t = localStorage.getItem('mb-theme')
+                } catch (e) {}
+                if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+                document.documentElement.setAttribute('data-theme', t)
+            })()
+        </script>
+    </head>
+    <body>
+        <div id="abee" aria-hidden="true">
+            <svg viewBox="0 0 28 24" width="28" height="24">
+                <g class="w" fill="#fffbd0" stroke="#1C110A" stroke-width="1.2">
+                    <ellipse cx="11" cy="8" rx="4.5" ry="3.2" />
+                    <ellipse cx="16" cy="7" rx="4.5" ry="3.2" />
+                </g>
+                <ellipse
+                    cx="14"
+                    cy="15"
+                    rx="9"
+                    ry="6"
+                    fill="#FFF275"
+                    stroke="#1C110A"
+                    stroke-width="1.8"
+                />
+                <path d="M11 9.6v10.8M15 9.3v11.4" stroke="#1C110A" stroke-width="2.2" />
+                <circle
+                    cx="23"
+                    cy="14"
+                    r="3.2"
+                    fill="#FF4F79"
+                    stroke="#1C110A"
+                    stroke-width="1.5"
+                />
+                <path d="M5 15l-3 1" stroke="#1C110A" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+        </div>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
+</html>
